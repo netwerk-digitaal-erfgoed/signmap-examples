@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:rs="http://www.openarchives.org/rs/terms/">
+  <url>
+  
+    # landing page of the NDE Datasetregister
+    <loc>https://datasetregister.netwerkdigitaalerfgoed.nl/show.php?lang=nl&uri=https%3A%2F%2Fdata.colonialcollections.nl%2Fdata-hub%2Fknowledge-graph</loc>
+
+    # modification date 
+    <lastmod>2024-08-24</lastmod>
+
+    # reference to the published dataset description as published by the
+    # source
+    <rs:ln
+        rel="alternate"
+        href="https://data.colonialcollections.nl/data-hub/knowledge-graph" 
+        type="text/html"
+    />
+
+    # link to the dataset license
+    <rs:ln
+        rel="license"
+        href="https://creativecommons.org/publicdomain/zero/1.0/"
+    />
+
+    # link to the dataset creator
+    <rs:ln
+        rel="author"
+        href="https://data.colonialcollections.nl/data-hub"
+    />
+
+    # the full metadata is available in the triplestore and can accessed using the encoded sparql construct query  
+    <rs:ln
+        rel="describedby"
+        href="https://triplestore.netwerkdigitaalerfgoed.nl/repositories/registry?query=CONSTRUCT%20FROM%20%3Chttps%3A%2F%2Fdata.colonialcollections.nl%2Fdata-hub%2Fknowledge-graph%3E%20WHERE%20%7B%20%20%20%3Fsubject%20%3Fpredicate%20%3Fobject%20.%20%7D"
+        type="application/n-triples"
+        profile="http://www.w3.org/ns/dcat#"
+    />  
+
+	# the dataset is available as a dump serialized in Trig
+ 	<rs:ln
+        rel="item"
+        href="https://data.colonialcollections.nl/data-hub/knowledge-graph/download.trig.gz" 
+        type="application/trig"
+    />
+
+	# the dataset is available as a dump serialized in N-Quads
+ 	<rs:ln
+        rel="item"
+        href="https://data.colonialcollections.nl/data-hub/knowledge-graph/download.nq.gz" 
+        type="application/n-quads"
+    />
+
+	# the dataset is available as a dump serialized in N-triples
+ 	<rs:ln
+        rel="item"
+        href="https://data.colonialcollections.nl/data-hub/knowledge-graph/download.nt.gz" 
+        type="application/n-triples"
+    />
+
+	# the dataset is available as a dump serialized in Turtle
+ 	<rs:ln
+        rel="item"
+        href="https://data.colonialcollections.nl/data-hub/knowledge-graph/download.ttl.gz" 
+        type="text/turtle"
+    />
+
+	# the dataset is available as a dump serialized in JSON-LD
+ 	<rs:ln
+        rel="item"
+        href="https://data.colonialcollections.nl/data-hub/knowledge-graph/download.jsonld.gz" 
+        type="application/ld+json"
+    />
+
+    # finally, the pointer to the SPARQL endpoint
+    <rs:ln 	
+        rel="https://www.w3.org/ns/dcat#endpointURL"
+        href="https://api.colonialcollections.nl/datasets/data-hub/knowledge-graph/services/kg/sparql" 
+        type="application/sparql-results+json"
+    />
+  </url>
+</urlset>
+

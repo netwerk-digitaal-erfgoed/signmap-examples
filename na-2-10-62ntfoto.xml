@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:rs="http://www.openarchives.org/rs/terms/">
+  <url>
+  
+    # landing page of the NDE Datasetregister
+    <loc>https://datasetregister.netwerkdigitaalerfgoed.nl/show.php?lang=nl&uri=https://archief.nl/id/dataset/foto/2-10-62ntfoto</loc>
+
+    # modification date 
+    <lastmod>2024-07-31</lastmod>
+
+    # reference to the published dataset description as published by the
+    # source
+    <rs:ln
+        rel="alternate"
+        href="https://archief.nl/id/dataset/foto/2-10-62ntfoto" 
+        type="application/ld+json"
+    />
+
+    # link to the dataset license
+    <rs:ln
+        rel="license"
+        href="https://creativecommons.org/publicdomain/zero/1.0/"
+    />
+
+    # link to the dataset creator
+    <rs:ln
+        rel="author"
+        href="https://www.nationaalarchief.nl"
+    />
+
+    # the full metadata is available in the triplestore and can accessed using the encoded sparql construct query  
+    <rs:ln
+        rel="describedby"
+        href="https://triplestore.netwerkdigitaalerfgoed.nl/repositories/registry?query=PREFIX%20dcat%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0ACONSTRUCT%20%0AFROM%20%3Chttps%3A%2F%2Farchief.nl%2Fid%2Fdataset%2Ffoto%2F2-10-62ntfoto%3E%0AFROM%20%3Chttps%3A%2F%2Feuropeana.eu%2Faggregating-lod-mvp%3E%20%0AWHERE%20%7B%20%0A%20%20%20%20%3Fsubject%20%3Fpredicate%20%3Fobject%20.%0A%20%20%20%20%3Fsubject%20dcat%3Adistribution%20%3Fdistribution%20.%0A%20%20%20%20%3Chttps%3A%2F%2Farchief.nl%2Fid%2Fdataset%2Ffoto%2F2-10-62ntfoto%3E%20dcat%3Adistribution%20%3Fdistribution%20.%0A%20%20%20%20%3Fdistribution%20%3Fp_dist%20%3Fo_dist%20.%0A%7D%0A"
+        type="application/n-triples"
+        profile="http://www.w3.org/ns/dcat#"
+    />  
+
+	# the dataset is available as a dump serialized in RDF/XML and model as EDM
+ 	<rs:ln
+        rel="item"
+        href="https://nde-europeana.ams3.cdn.digitaloceanspaces.com/2-10-62ntfoto.rdf" 
+        type="application/rdf+xml"
+        profile="http://www.europeana.eu/schemas/edm"
+    />
+
+    # finally, the pointer to the SPARQL endpoint
+    <rs:ln 	
+        rel="https://www.w3.org/ns/dcat#endpointURL"
+        href="https://service.archief.nl/sparql" 
+        type="application/sparql-query"
+    />
+  </url>
+</urlset>
+
