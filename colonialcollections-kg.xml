@@ -32,7 +32,7 @@
     # the full metadata is available in the triplestore and can accessed using the encoded sparql construct query  
     <rs:ln
         rel="describedby"
-        href="https://triplestore.netwerkdigitaalerfgoed.nl/repositories/registry?query=CONSTRUCT%20FROM%20%3Chttps%3A%2F%2Fdata.colonialcollections.nl%2Fdata-hub%2Fknowledge-graph%3E%20WHERE%20%7B%20%20%20%3Fsubject%20%3Fpredicate%20%3Fobject%20.%20%7D"
+        href="https://triplestore.netwerkdigitaalerfgoed.nl/repositories/registry?query=CONSTRUCT%20FROM%20%3Chttps%3A%2F%2Fdata.colonialcollections.nl%2Fdata-hub%2Fknowledge-graph%3E%20WHERE%20%7B%20%20%20%3Fsubject%20%3Fpredicate%20%3Fobject%20.%20%7D&amp;Accept=application%2Fn-triples"
         type="application/n-triples"
         profile="http://www.w3.org/ns/dcat#"
     />  

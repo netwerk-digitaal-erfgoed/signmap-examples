@@ -32,7 +32,7 @@
     # the full metadata is available in the triplestore and can accessed using the encoded sparql construct query  
     <rs:ln
         rel="describedby"
-        href="https://triplestore.netwerkdigitaalerfgoed.nl/repositories/registry?query=PREFIX%20dcat%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0ACONSTRUCT%20%0AFROM%20%3Chttps%3A%2F%2Farchief.nl%2Fid%2Fdataset%2Ffoto%2F2-10-62ntfoto%3E%0AFROM%20%3Chttps%3A%2F%2Feuropeana.eu%2Faggregating-lod-mvp%3E%20%0AWHERE%20%7B%20%0A%20%20%20%20%3Fsubject%20%3Fpredicate%20%3Fobject%20.%0A%20%20%20%20%3Fsubject%20dcat%3Adistribution%20%3Fdistribution%20.%0A%20%20%20%20%3Chttps%3A%2F%2Farchief.nl%2Fid%2Fdataset%2Ffoto%2F2-10-62ntfoto%3E%20dcat%3Adistribution%20%3Fdistribution%20.%0A%20%20%20%20%3Fdistribution%20%3Fp_dist%20%3Fo_dist%20.%0A%7D%0A"
+        href="https://triplestore.netwerkdigitaalerfgoed.nl/repositories/registry?query=PREFIX%20dcat%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0ACONSTRUCT%20%0AFROM%20%3Chttps%3A%2F%2Farchief.nl%2Fid%2Fdataset%2Ffoto%2F2-10-62ntfoto%3E%0AFROM%20%3Chttps%3A%2F%2Feuropeana.eu%2Faggregating-lod-mvp%3E%20%0AWHERE%20%7B%20%0A%20%20%20%20%3Fsubject%20%3Fpredicate%20%3Fobject%20.%0A%20%20%20%20%3Fsubject%20dcat%3Adistribution%20%3Fdistribution%20.%0A%20%20%20%20%3Chttps%3A%2F%2Farchief.nl%2Fid%2Fdataset%2Ffoto%2F2-10-62ntfoto%3E%20dcat%3Adistribution%20%3Fdistribution%20.%0A%20%20%20%20%3Fdistribution%20%3Fp_dist%20%3Fo_dist%20.%0A%7D%0A&amp;Accept=application%2Fn-triples"
         type="application/n-triples"
         profile="http://www.w3.org/ns/dcat#"
     />  
